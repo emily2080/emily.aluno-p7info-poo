@@ -1,14 +1,14 @@
 # Atividade de Presença 05
 
 ## Domínio do problema
-    - Loja de venda de celular  
+    - Restaurante
 ## Entidades
-    - Dono da loja
+    - Garçons
     - Recepcionista
-    - Vendedor
+    - Auxiliar de cozinha
     - Cliente
-    - Celular
-    - Fornecedor
+    - cozinheiros
+    - Fornecedores
 
 ## Classes com seus atributo e métodos
 
@@ -18,37 +18,34 @@
     - CPF
     - E-mail
     - Cargo
+    - Salário
 #### Métodos
     - cadastrarNome
     - cadastrarCPF
     - cadastrarEmail
     - definirCargo
+    - definirSalário
 ---
-### Classe Celular:
+### Classe Restaurante:
 #### Atributos:
     - Nome
-    - Marca
-    - Modelo
-    - Ano
-    - Cor
+    - Duração
+    - Reputação
    
 #### Métodos:
     - cadastrarNome
-    - cadastrarMarca
-    - cadastrarModelo
-    - cadastrarAno
-    - cadastrarCor
-    
+    - cadastrarDuração
+    - cadastrarReputação
 ---
 ### Classe Fornecedor:
 #### Atributos:
     - Nome
     - CPF/CNPJ
-    - CelularFornecido
+    - ProdutoFornecido
     - QuantidadeFornecida
 #### Métodos:
     - cadastrarNome
     - cadastrarCPF/CNPJ
-    - informarCelularFornecido
+    - informarProdutoFornecido
     - informarQuantidadeFornecida
 ---
