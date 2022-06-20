@@ -42,5 +42,6 @@ nf.adicionarItem(itnf3);
 console.log("=========================");
 console.log(nf);
 console.log("=========================");
-
+console.log('Valor Nota: R$ ' + nf.calcularValorNotaFiscal().toString().replace('.', ','));
+console.log("=========================");
 
